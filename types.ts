@@ -48,3 +48,11 @@ let cart: object
 cart = {
   foo: "bar"
 }
+
+// Type Inference
+let note = "Nota definida"
+note = "Nova nota definida"
+
+window.addEventListener('click', (e) => {
+  console.log(e.target)
+})
